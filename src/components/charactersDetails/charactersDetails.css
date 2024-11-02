@@ -1,0 +1,25 @@
+.charactersDetailsNavigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 130%;
+}
+
+.charactersDetailsNavigatePath {
+    display: flex;
+    align-items: center;
+    font-size: 130%;
+}
+
+.charactersDetailsNavigatePath a {
+    color: rgb(1, 111, 139); 
+    text-decoration: none;
+    margin-right: 0.5rem; 
+}
+
+.charactersDetailsNavigatePath p {
+    margin: 0;
+    padding: 0;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

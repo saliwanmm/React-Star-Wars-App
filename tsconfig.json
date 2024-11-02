@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -17,10 +13,9 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["node", "@testing-library/jest-dom"]  // Додає підтримку типів для тестування
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src", "src/**/*.test.tsx", "setupTests.ts"],         // Включаємо тестові файли
+  "exclude": ["node_modules", "build"],
 }

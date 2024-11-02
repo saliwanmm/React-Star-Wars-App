@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    background-color: #000;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  footer h3 {
+    font-size: 1.3vw;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    footer h3 {
+      font-size: 0.6rem;
+    }
+  }

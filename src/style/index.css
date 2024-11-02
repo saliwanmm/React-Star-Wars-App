@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 80vw; 
+  margin: 0 auto; 
+  padding: 0 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.main-content {
+  flex: 1;
+}
+
+@media (min-width: 1200px) {
+  .App {
+    max-width: 80vw;
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    max-width: 95vw; 
+    padding: 0 1rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .column {
+    width: 100%;
+  }
+}

@@ -1,0 +1,85 @@
+.starshipDetailsNavigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 130%;
+    margin-bottom: 2rem;
+}
+
+.starshipDetailsNavigatePath {
+    display: flex;
+    align-items: center;
+    font-size: 130%;
+}
+
+.starshipDetailsNavigatePath a {
+    color: rgb(1, 111, 139); 
+    text-decoration: none;
+    margin-right: 0.5rem; 
+}
+
+.starshipDetailsNavigatePath p {
+    margin: 0;
+    padding: 0;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+.starshipDetailsContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 90vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.starshipImage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.starshipImage {
+    width: auto;
+    height: 100%;
+    border-radius: 8px;
+    margin-right: 2rem;
+    object-fit: cover;
+}
+
+.starshipInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    max-width: 60vw;
+    padding: 1rem;
+}
+
+.starshipInfo h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #e3e3e3;
+}
+
+.starshipInfo p {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    color: #b3b3b3;
+}
+
+.openingCrawl {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    text-align: justify;
+}

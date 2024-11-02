@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .card {
+    overflow: hidden;
+    width: 30%;
+    transition: transform 0.3s ease;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .home {
+      flex-direction: column;
+    }
+    
+    .card {
+      width: 90%;
+      margin-bottom: 1rem;
+    }
+  }

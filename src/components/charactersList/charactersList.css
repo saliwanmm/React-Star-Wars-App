@@ -1,0 +1,107 @@
+.charactersNavigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 130%;
+}
+
+.charactersNavigatePath {
+    display: flex;
+    align-items: center;
+    font-size: 130%;
+}
+
+.charactersNavigatePath a {
+    color: rgb(1, 111, 139); 
+    text-decoration: none;
+    margin-right: 0.5rem; 
+}
+
+.charactersNavigatePath p {
+    margin: 0;
+    padding: 0;
+}
+
+.charactersNavigatePaginate {
+    display: flex;
+    align-items: center;
+}
+
+.paginateBtn {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.paginateBtn.active {
+    background-color: rgb(1, 111, 139);
+    color: white;
+}
+
+.paginateBtn:hover {
+    background-color: #afafaf;
+}
+
+.paginateBtn:focus {
+    outline: none;
+}
+
+.characters {
+    display: flex;
+    flex-direction: column;
+}
+
+.paginateDots {
+    padding: 0.5rem 1rem;
+    color: grey;
+}
+
+.characterCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.characterCard {
+    background-color: #1c1c1c; 
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease; 
+    text-align: center; 
+    padding-bottom: 1rem;
+}
+
+.characterCard img {
+    width: 100%; 
+    height: auto;
+}
+
+.characterCard h3 {
+    color: #fff;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.characterCard:hover {
+    transform: scale(1.05); 
+}
+
+.characterCard a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+@media (max-width: 768px) {
+    .characters {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}

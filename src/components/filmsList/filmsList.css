@@ -1,0 +1,53 @@
+.filmsNavigate {
+    display: flex;
+    align-items: center;
+    font-size: 170%;
+}
+
+.filmsNavigate a {
+    color: rgb(1, 111, 139); 
+    text-decoration: none;
+    margin-right: 0.5rem; 
+  }
+
+.filmsNavigate p {
+margin: 0;
+padding: 0;
+}
+
+.filmsCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.filmCard {
+  background-color: #1c1c1c; 
+  border-radius: 10px;
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease; 
+  text-align: center; 
+  padding-bottom: 1rem;
+}
+
+.filmCard img {
+  width: 100%; 
+  height: auto;
+}
+
+.filmCard h3 {
+  color: #fff;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.filmCard:hover {
+  transform: scale(1.05); 
+}
+
+.filmCard a {
+  text-decoration: none; 
+  color: inherit; 
+}
